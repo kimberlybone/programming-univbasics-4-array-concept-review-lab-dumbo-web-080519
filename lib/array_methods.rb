@@ -5,8 +5,12 @@ valley = [5,4,3,2,1,0,1,2,3,4,5]
 zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
-  array.length do |index|
-    array.include?(value_to_find)
+  new_array = array.include?(value_to_find)
+  if true do |index|
+    puts new_array
+  else 
+    nil 
+  end 
     
 end
 
