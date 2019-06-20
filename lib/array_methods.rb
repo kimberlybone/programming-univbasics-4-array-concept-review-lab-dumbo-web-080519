@@ -7,7 +7,7 @@ zig_zag = [500,4,1000,5,250]
 def find_element_index(array, value_to_find)
   array.each_with_index.map |item, i|
   if (item == item[value_to_find])
-    puts item[value_to_find]
+    puts array.find_index [value_to_find]
   else 
     puts nil 
 end
