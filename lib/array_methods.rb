@@ -17,8 +17,8 @@ end
 
 
 def find_max_value(array)
-  if true 
-    puts array.max()
+    puts array.max_by do |element|
+  element.field
 end
 
 def find_min_value(array)
