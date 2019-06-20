@@ -10,8 +10,6 @@ def find_element_index(array, value_to_find)
     puts new_array
   else 
     puts nil 
-  end 
-    
 end
 
 def find_max_value(array)
