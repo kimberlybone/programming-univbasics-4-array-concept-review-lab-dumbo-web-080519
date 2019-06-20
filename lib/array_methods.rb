@@ -6,7 +6,7 @@ zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
   new_array = array.include?(value_to_find)
-  if true do
+  if true
     puts new_array
   else 
     puts nil 
